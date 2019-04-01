@@ -15,3 +15,10 @@ List of authentication endpoint
 --- | ---| ---| ---| ---
 `/api/signin` | POST | none | none | Login as a user
 `/api/signup` | POST | none | none | Create new user
+
+```javascript
+npm install
+npm start
+npm run dev
+```
+
