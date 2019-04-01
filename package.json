@@ -2,7 +2,7 @@
   "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/azharnazli/rest-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "M Azhar Nazli",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/azharnazli/rest-api/issues"
