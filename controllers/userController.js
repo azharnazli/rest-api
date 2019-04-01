@@ -53,8 +53,9 @@ class UserController {
 
   static editUser(req, res) {
     User.update({
-        email: req.body.email,
-        password: req.body.password
+        id : req.params.id,
+        email : req.body.email,
+        password : req.body.password
       },{
         where : { id : req.params.id}
       })
